@@ -12,4 +12,11 @@
 #
 
 class Destination < ActiveRecord::Base
+
+
+#validations
+
+#relationships
+belongs_to: continent
+
 end
