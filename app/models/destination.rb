@@ -17,6 +17,6 @@ class Destination < ActiveRecord::Base
 #validations
 
 #relationships
-belongs_to: continent
+belongs_to :continent
 
 end

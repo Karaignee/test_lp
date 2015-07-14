@@ -1,4 +1,4 @@
 class Continent < ActiveRecord::Base
 
-has_one: destination
+has_one :destination
 end
